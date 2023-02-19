@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import Form from './components/Form/Form'
 
 function App() {
   // Create the count state.
@@ -11,11 +12,7 @@ function App() {
   // Return the App component.
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Page has been open for <code>{count}</code> seconds.
-        </p>
-      </header>
+      <Form />
     </div>
   );
 }
